@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/custom.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body id="bdy">
+   
+  
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">Legacy Soccer Club</a>
+       
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="book.html">Book a Class</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="courses.html">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shoping.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav> 
+      <h1 id="content">Book Classes</h1>
+      
+
+      <div class="container">
+        <div class="filter-container">
+          <div class="form-inline">
+            <div class="form-group">
+              <label for="age-filter">Age:</label>
+              <select id="age-filter" class="form-control form-control-sm">
+                <option value="">All Ages</option>
+                <option value="under18">Under 18</option>
+                <option value="18to25">18 to 25</option>
+                <option value="26to35">26 to 35</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="day-filter">Day:</label>
+              <select id="day-filter" class="form-control form-control-sm">
+                <option value="">All Days</option>
+                <option value="monday">Monday</option>
+                <option value="tuesday">Tuesday</option>
+                <option value="wednesday">Wednesday</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="time-filter">Time:</label>
+              <select id="time-filter" class="form-control form-control-sm">
+                <option value="">All Times</option>
+                <option value="morning">Morning</option>
+                <option value="afternoon">Afternoon</option>
+                <option value="evening">Evening</option>
+              </select>
+             
+              
+            </div>
+          </div>
+        </div>
+        <div class="checkbox-container">
+          <input type="checkbox" id="checkbox1">
+          <label for="checkbox1"></label>
+          <span class="checkbox-label">Label</span>
+        </div>
+
+        <div class="tbcontainer">
+          <table class="table table-bordered table-striped">
+            <thead class="thead-dark ">
+              <tr>
+                <th>Day and Time</th>
+                <th>Venue</th>
+                <th>Class</th>
+                <th></th> <!-- Empty header for the booking button column -->
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Monday, 9:00 AM</td>
+                <td>Main Field</td>
+                <td>Beginners</td>
+                <td><button class="btn btn-primary btn-block">Book Now</button></td>
+              </tr>
+              <tr>
+                <td>Tuesday, 4:00 PM</td>
+                <td>Training Ground</td>
+                <td>Intermediate</td>
+                <td><button class="btn btn-primary btn-block">Book Now</button></td>
+              </tr>
+              <!-- Add more rows as needed -->
+            </tbody>
+          </table>
+        </div>
+        
+        
+      
+
+
+
+
+
+
+
+
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   
+</body>
+</html>

@@ -32,7 +32,7 @@ pipeline {
                     sshPublisher(
                         publishers: [
                             sshPublisherDesc(
-                                configName: "MyUbuntuServer", 
+                                configName: "myawsuserver", 
                                 transfers: [sshTransfer(
                                     execCommand: """
                                         docker pull alikhan034/terminaltoc:${env.BUILD_ID}

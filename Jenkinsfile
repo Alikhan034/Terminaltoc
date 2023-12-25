@@ -46,7 +46,7 @@ pipeline {
                     )
 
                     // Check if deployment is successful
-                    boolean isDeploymentSuccessful = sh(script: 'curl -s -o /dev/null -w "%{http_code}" http://54.236.239.48:400', returnStdout: true).trim() == '200'
+                    boolean isDeploymentSuccessful = sh(script: 'curl -s -o /dev/null -w "%{http_code}" http:// 54.91.34.93:400', returnStdout: true).trim() == '200'
 
                     if (!isDeploymentSuccessful) {
                         // Rollback to the previous version
